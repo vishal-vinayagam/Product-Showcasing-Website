@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head> 
+<body>
+    <header>
+        <nav>
+            <div class="logo">BENZ</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+           <div class="hero-content">
+    <h1>Black Mamba Watch-></h1>
+    <h2>Experience the future of technology on your wrist.</h2>
+    <h2>Experience seamless connectivity, <br>advanced health tracking, <br>and premium design with our flagship watch.</h2>
+    <div class="cta-buttons">
+        <a href="#buy" class="btn primary">Pre-Order Now</a>
+        <a href="#features" class="btn secondary">Learn More</a>
+    </div>
+</div>
+
+            <div class="hero-image">
+                <img src="images/hero-watch.png" alt="SmartWatch">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Premium Collections</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health Monitoring</h3>
+                    <p>24/7 heart rate tracking, blood oxygen monitoring, and advanced sleep analysis.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-battery-full"></i>
+                    <h3>7-Day Battery</h3>
+                    <p>Extended battery life with fast charging capability (0-100% in 90 minutes).</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Waterproof</h3>
+                    <p>5ATM water resistance for swimming and all-weather use.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bell"></i>
+                    <h3>Smart Notifications</h3>
+                    <p>Receive calls, messages, and app notifications directly on your wrist.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Advanced Sensors</h3>
+                    <p>GPS, accelerometer, and gyroscope for accurate tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Customizable Watch Faces</h3>
+                    <p>Interchangeable bands and hundreds of watch faces to match your style.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="specs" class="specs">
+            <h2>Technical Specifications</h2>
+            <div class="specs-container">
+                <div class="specs-image">
+                    <img src="images/watch-specs.jpg" alt="SmartWatch Specs">
+                </div>
+                <div class="specs-list">
+                    <div class="spec-item">
+                        <h3>Display</h3>
+                        <p>1.78" AMOLED, 368×448 resolution, Always-On</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Processor</h3>
+                        <p>Dual-core 1.2GHz with 2GB RAM</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Storage</h3>
+                        <p>8GB internal (4GB available for music)</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Sensors</h3>
+                        <p>Optical heart rate, SpO2, accelerometer, gyroscope, ambient light</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Connectivity</h3>
+                        <p>Bluetooth 5.0, Wi-Fi, NFC (for payments)</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Compatibility</h3>
+                        <p>Android 8.0+, iOS 12+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Product Gallery</h2>
+            <div class="gallery-container">
+                <div class="main-image">
+                    <img id="mainGalleryImage" src="images/watch-black.jpg" alt="Smartwatch Black">
+                </div>
+                <div class="thumbnail-container">
+                    <img class="thumbnail active" src="images/watch-black-thumb.jpg" alt="Black variant" data-fullsize="images/watch-black.jpg">
+                    <img class="thumbnail" src="images/watch-silver-thumb.jpg" alt="Silver variant" data-fullsize="images/watch-silver.jpg">
+                    <img class="thumbnail" src="images/watch-rosegold-thumb.jpg" alt="Rose Gold variant" data-fullsize="images/watch-rosegold.jpg">
+                    <img class="thumbnail" src="images/watch-on-wrist-large.jpg" alt="On wrist" data-fullsize="images/watch-on-wrist.jpg">
+                </div>  
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="reviewer">
+                        <img src="images/reviewer1.jpg" alt="Sarah J.">
+                        <div class="reviewer-info">
+                            <h4>Sarah J.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The BENZ Pro has completely replaced my fitness tracker and traditional watch. The battery life is incredible and the display is stunning even in direct sunlight."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer">
+                        <img src="images/reviewer2.jpg" alt="Michael T.">
+                        <div class="reviewer-info">
+                            <h4>Michael T.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"As a runner, the GPS accuracy is spot on. The health metrics provide great insights into my training. Only wish the mobile app had more customization options."</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer">
+                        <img src="images/reviewer3.jpg" alt="Priya K.">
+                        <div class="reviewer-info">
+                            <h4>Priya K.</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The sleep tracking has helped me improve my sleep habits significantly. The watch is lightweight and comfortable to wear 24/7. Highly recommend!"</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="buy" class="pricing">
+            <h2>Choose Your BENZ</h2>
+            <div class="pricing-cards">
+                <div class="price-card">
+                    <h3>BENZ Standard</h3>
+                    <div class="price">$249</div>
+                    <ul class="features-list">
+                        <li>1.6" LCD Display</li>
+                        <li>5-Day Battery</li>
+                        <li>Basic Health Tracking</li>
+                        <li>Silicone Band</li>
+                        <li>IP68 Water Resistance</li>
+                    </ul>
+                    <a href="#" class="btn primary">Add to Cart</a>
+                </div>
+                <div class="price-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>BENZ Pro</h3>
+                    <div class="price">$349</div>
+                    <ul class="features-list">
+                        <li>1.78" AMOLED Display</li>
+                        <li>7-Day Battery</li>
+                        <li>Advanced Health Metrics</li>
+                        <li>Choice of Band</li>
+                        <li>5ATM Water Resistance</li>
+                        <li>Built-in GPS</li>
+                    </ul>
+                    <a href="#" class="btn primary">Add to Cart</a>
+                </div>
+                <div class="price-card">
+                    <h3>BENZ Pro Titanium</h3>
+                    <div class="price">$499</div>
+                    <ul class="features-list">
+                        <li>1.78" AMOLED Display</li>
+                        <li>7-Day Battery</li>
+                        <li>Advanced Health Metrics</li>
+                        <li>Titanium Case & Band</li>
+                        <li>5ATM Water Resistance</li>
+                        <li>Built-in GPS</li>
+                        <li>Wireless Charging</li>
+                    </ul>
+                    <a href="#" class="btn primary">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+
+      <!-- Floating Action Button (FAB) -->
+<div class="contact-icon" onclick="toggleContactModal()">
+    <i class="fas fa-phone-alt"></i>
+</div>
+
+<!-- Modal for Contact Information -->
+<div id="contact-modal" class="contact-modal">
+    <div class="contact-modal-content">
+        <span class="close-btn" onclick="toggleContactModal()">&times;</span>
+        <h3>Contact Us</h3>
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" name="name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" name="email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+    </div>
+</div>
+
+    </main>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">BENZ Standard</a></li>
+                <li><a href="#">BENZ Pro</a></li>
+                <li><a href="#">BENZ Pro Titanium</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Warranty</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe for updates and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Nexus Wearables. All rights reserved.</p>
+        <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
